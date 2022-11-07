@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shipments",
+  "info": {
+    "singularName": "shipment",
+    "pluralName": "shipments",
+    "displayName": "shipment",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TrackingID": {
+      "type": "string",
+      "unique": true
+    },
+    "CustomerName": {
+      "type": "string"
+    },
+    "Shpper": {
+      "type": "string"
+    },
+    "Consignee": {
+      "type": "string"
+    },
+    "Incoterm": {
+      "type": "string"
+    },
+    "Voyage": {
+      "type": "string"
+    },
+    "CargoDimension": {
+      "type": "decimal"
+    },
+    "CargoWeight": {
+      "type": "decimal"
+    },
+    "POL": {
+      "type": "string"
+    },
+    "POD": {
+      "type": "string"
+    },
+    "ETD": {
+      "type": "date"
+    },
+    "ETA": {
+      "type": "date"
+    },
+    "SellingRate": {
+      "type": "decimal"
+    },
+    "BuyingRate": {
+      "type": "decimal"
+    }
+  }
+}
